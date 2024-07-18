@@ -1,5 +1,5 @@
 // Cadenas de texto (string)
-let name = "Brais Moure"
+let myName = "Brais Moure"
 let alias = 'MoureDev'
 let email = 'braismoure@mouredev.com'
 
@@ -13,7 +13,7 @@ let isStudent = false
 
 // Undefined
 let undefinedValue
-console.log(undefindedValue)
+console.log(undefinedValue)
 
 // Null
 let nullValue = null
@@ -26,3 +26,23 @@ let mySymbol = Symbol("mysymbol")
 
 let myBigInt = BigInt(8183409128650123421341241)
 let myBigInt2 = 123412351443634654256141513452452n
+
+// Mostramos los tipos de datos
+console.log(typeof myName)
+console.log(typeof alias)
+console.log(typeof email)
+
+console.log(typeof age)
+console.log(typeof height)
+
+console.log(typeof isTeacher)
+console.log(typeof isStudent)
+
+console.log(typeof undefinedValue)
+
+console.log(typeof nullValue)
+
+console.log(typeof mySymbol)
+
+console.log(typeof myBigInt)
+console.log(typeof myBigInt2)
