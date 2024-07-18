@@ -1,13 +1,21 @@
+/*
+Clase 2 en vídeo | 17/07/2024
+Tipos de datos, operadores y strings
+https://www.twitch.tv/videos/2200149072?t=00h08m02s
+*/
+
+// Tipos de datos primitivos
+
 // Cadenas de texto (string)
 let myName = "Brais Moure"
 let alias = 'MoureDev'
-let email = 'braismoure@mouredev.com'
+let email = `braismoure@mouredev.com`
 
-// Numeros (number)
+// Números (number)
 let age = 37 // Entero
 let height = 1.77 // Decimal
 
-// booleanos (boolean)
+// Booleanos (boolean)
 let isTeacher = true
 let isStudent = false
 
@@ -24,8 +32,8 @@ let mySymbol = Symbol("mysymbol")
 
 // BigInt
 
-let myBigInt = BigInt(8183409128650123421341241)
-let myBigInt2 = 123412351443634654256141513452452n
+let myBigInt = BigInt(817239871289371986589716389471628379612983761289376129)
+let myBigInt2 = 817239871289371986589716389471628379612983761289376129n
 
 // Mostramos los tipos de datos
 console.log(typeof myName)
