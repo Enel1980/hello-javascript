@@ -14,3 +14,6 @@ let isStudent = false
 // Undefined
 let undefinedValue
 console.log(undefindedValue)
+
+// Null
+let nullValue = null
