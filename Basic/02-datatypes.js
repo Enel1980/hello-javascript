@@ -17,3 +17,12 @@ console.log(undefindedValue)
 
 // Null
 let nullValue = null
+
+// Symbol
+
+let mySymbol = Symbol("mysymbol")
+
+// BigInt
+
+let myBigInt = BigInt(8183409128650123421341241)
+let myBigInt2 = 123412351443634654256141513452452n
