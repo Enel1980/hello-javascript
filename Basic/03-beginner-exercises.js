@@ -40,9 +40,16 @@ cadena = 12
 GranEntero = 'string'
 Booleano = 'no se'
 console.log(typeof(numero))
+console.log(typeof(undefined))
+console.log(typeof(null))
+console.log(typeof(Symbol))
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
+const pi = 3.14
+console.log(pi)
 
 // 9. A continuación, modifica los valores de las constantes
+// pi = 3
 
-// 10. Comenta las líneas que produzcan algún tipo de error al ejecutarser
+// 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
+//Entonces era así
