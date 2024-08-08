@@ -22,27 +22,27 @@ console.log(GranEntero)
 console.log(Booleano)
 
 // 5. Imprime por consola el tipo de todas las variables
-console.log(typeof(numero))
-console.log(typeof(cadena))
-console.log(typeof(GranEntero))
-console.log(typeof(Booleano))
+console.log(typeof (numero))
+console.log(typeof (cadena))
+console.log(typeof (GranEntero))
+console.log(typeof (Booleano))
 
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
 numero = 5
 cadena = 'Otro String'
 GranEntero = BigInt(513245123451)
 Booleano = false
-console.log(typeof(numero))
+console.log(typeof (numero))
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
 numero = '5'
 cadena = 12
 GranEntero = 'string'
 Booleano = 'no se'
-console.log(typeof(numero))
-console.log(typeof(undefined))
-console.log(typeof(null))
-console.log(typeof(Symbol))
+console.log(typeof (numero))
+console.log(typeof (undefined))
+console.log(typeof (null))
+console.log(typeof (Symbol))
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
 const pi = 3.14
