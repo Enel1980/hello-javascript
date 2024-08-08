@@ -7,6 +7,9 @@ https://www.twitch.tv/videos/2212289583?t=00h17m45s
 // NOTA: Explora diferentes sintaxis de bucles para resolver los ejercicios
 
 // 1. Crea un bucle que imprima los números del 1 al 20
+for (let i = 0; i < 21; i++) {
+    console.log(i)
+}
 
 // 2. Crea un bucle que sume todos los números del 1 al 100 y muestre el resultado
 
