@@ -44,9 +44,14 @@ let circle2 = new Circle(1)
 console.log(circle2.area())
 
 // 7. Exporta una función, una constante y una clase por defecto (en caso de que lo permita)
-
+export default function substract2(a, b) {
+    return a - b
+}
 // 8. Importa una función, una constante y una clase por defecto (en caso de que lo permita)
-
+import defaultImport from "./28-export-modules.js"
+console.log(defaultImport(4, 8))
 // 9. Exporta una función, una constante y una clase desde una carpeta
+//export { MyExport } from "./directory/file.js"
 
 // 10. Importa una función, una constante y una clase desde un directorio diferente al anterior
+//import { MyImport } from "./directory/file.js"
